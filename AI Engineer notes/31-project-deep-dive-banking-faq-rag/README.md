@@ -1,0 +1,48 @@
+# Phase 31: PROJECT DEEP DIVE: BANKING FAQ RAG
+
+Topics in this phase: 40
+
+Use the topic notes in order, then practice the interview prompts and follow-ups.
+
+## Topics
+
+- [Explain your project.](01-explain-your-project.md)
+- [Why did you choose RAG?](02-why-did-you-choose-rag.md)
+- [What problem did it solve?](03-what-problem-did-it-solve.md)
+- [Explain the architecture.](04-explain-the-architecture.md)
+- [What data did you use?](05-what-data-did-you-use.md)
+- [How did ingestion work?](06-how-did-ingestion-work.md)
+- [How did chunking work?](07-how-did-chunking-work.md)
+- [How did embeddings work?](08-how-did-embeddings-work.md)
+- [How did retrieval work?](09-how-did-retrieval-work.md)
+- [How did generation work?](10-how-did-generation-work.md)
+- [Why that embedding model?](11-why-that-embedding-model.md)
+- [Why that vector database?](12-why-that-vector-database.md)
+- [Why that chunk size?](13-why-that-chunk-size.md)
+- [Why that top-K?](14-why-that-top-k.md)
+- [How did you handle irrelevant results?](15-how-did-you-handle-irrelevant-results.md)
+- [How did you reduce hallucination?](16-how-did-you-reduce-hallucination.md)
+- [How did you evaluate it?](17-how-did-you-evaluate-it.md)
+- [How did you measure accuracy?](18-how-did-you-measure-accuracy.md)
+- [How did you handle outdated documents?](19-how-did-you-handle-outdated-documents.md)
+- [How did you handle duplicate documents?](20-how-did-you-handle-duplicate-documents.md)
+- [How would you scale it?](21-how-would-you-scale-it.md)
+- [How would you reduce latency?](22-how-would-you-reduce-latency.md)
+- [How would you reduce cost?](23-how-would-you-reduce-cost.md)
+- [How would you implement access control?](24-how-would-you-implement-access-control.md)
+- [How would you handle multi-tenancy?](25-how-would-you-handle-multi-tenancy.md)
+- [How would you defend against prompt injection?](26-how-would-you-defend-against-prompt-injection.md)
+- [How would you monitor it?](27-how-would-you-monitor-it.md)
+- [How would you perform regression testing?](28-how-would-you-perform-regression-testing.md)
+- [How would you migrate it to Google Cloud?](29-how-would-you-migrate-it-to-google-cloud.md)
+- [How would you replace your current LLM with Gemini?](30-how-would-you-replace-your-current-llm-with-gemini.md)
+- [What if retrieval quality suddenly drops?](31-what-if-retrieval-quality-suddenly-drops.md)
+- [What if the embedding model changes?](32-what-if-the-embedding-model-changes.md)
+- [What if the vector DB becomes unavailable?](33-what-if-the-vector-db-becomes-unavailable.md)
+- [What if documents contain malicious instructions?](34-what-if-documents-contain-malicious-instructions.md)
+- [What if two documents contradict each other?](35-what-if-two-documents-contradict-each-other.md)
+- [What if the user asks something outside the knowledge base?](36-what-if-the-user-asks-something-outside-the-knowledge-base.md)
+- [What if the LLM ignores retrieved context?](37-what-if-the-llm-ignores-retrieved-context.md)
+- [What if latency increases from 2 seconds to 15 seconds?](38-what-if-latency-increases-from-2-seconds-to-15-seconds.md)
+- [What if costs increase 5x?](39-what-if-costs-increase-5x.md)
+- [How would you redesign it for enterprise scale?](40-how-would-you-redesign-it-for-enterprise-scale.md)

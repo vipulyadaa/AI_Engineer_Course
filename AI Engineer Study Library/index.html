@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b1020">
+  <meta name="description" content="A searchable Google Cloud AI Engineer interview study library.">
+  <title>AI Engineer Study Library</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar" id="sidebar">
+      <div class="brand">
+        <div class="brand-mark" aria-hidden="true">✦</div>
+        <div>
+          <div class="brand-name">AI Engineer</div>
+          <div class="brand-subtitle">Study Library</div>
+        </div>
+      </div>
+
+      <button class="mobile-close" id="closeSidebar" aria-label="Close navigation">×</button>
+
+      <div class="sidebar-search">
+        <span class="search-icon" aria-hidden="true">⌕</span>
+        <input id="sidebarSearch" type="search" placeholder="Search notes…" autocomplete="off">
+        <kbd>/</kbd>
+      </div>
+
+      <nav class="sidebar-nav" aria-label="Main navigation">
+        <button class="nav-item active" data-route="home">
+          <span class="nav-icon">⌂</span><span>Overview</span>
+        </button>
+        <button class="nav-item" data-route="favorites">
+          <span class="nav-icon">☆</span><span>Saved notes</span><span class="nav-count" id="favoriteCount">0</span>
+        </button>
+        <button class="nav-item" data-route="recent">
+          <span class="nav-icon">◷</span><span>Recently viewed</span>
+        </button>
+      </nav>
+
+      <div class="sidebar-divider"></div>
+      <div class="sidebar-label">Roadmap</div>
+      <div class="phase-list" id="phaseList"></div>
+
+      <div class="sidebar-footer">
+        <div class="progress-mini">
+          <div class="progress-mini-head"><span>Your library</span><strong id="sidebarNoteCount">0 notes</strong></div>
+          <div class="progress-track"><div class="progress-fill" id="sidebarProgress"></div></div>
+          <div class="progress-caption">Foundations → production AI</div>
+        </div>
+        <div class="footer-note">Built from your interview-ready notes</div>
+      </div>
+    </aside>
+
+    <main class="main-content">
+      <header class="topbar">
+        <button class="mobile-menu" id="openSidebar" aria-label="Open navigation">☰</button>
+        <div class="breadcrumbs" id="breadcrumbs"><span>Study Library</span></div>
+        <div class="topbar-actions">
+          <button class="icon-button" id="randomNote" title="Open a random note" aria-label="Open a random note">⤨</button>
+          <button class="avatar" title="AI Engineer study plan" aria-label="AI Engineer study plan">V</button>
+        </div>
+      </header>
+
+      <div class="page-wrap" id="pageWrap">
+        <section id="homeView" class="view"></section>
+        <section id="noteView" class="view hidden"></section>
+      </div>
+    </main>
+  </div>
+  <div class="mobile-scrim hidden" id="mobileScrim"></div>
+
+  <script src="study-data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
