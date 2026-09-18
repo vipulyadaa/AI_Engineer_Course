@@ -1,5 +1,5 @@
 param(
-  [string]$Source = (Join-Path $PSScriptRoot '..\AI Engineer notes'),
+  [string]$Source = (Join-Path $PSScriptRoot 'AI Engineer notes'),
   [string]$Output = (Join-Path $PSScriptRoot 'study-data.js')
 )
 
